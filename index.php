@@ -32,10 +32,40 @@
         <option value="standard room" >standard room</option>
         <option value="superior room" >superior room</option>
         <option value="deluxe room" >deluxe room</option>
-</select>
+      </select>
+   </div>
+
+    <button type="submit" class="btn btn-succes" name="bsimpan">Simpan</button>
+    <button type="reset" class="btn btn-danger" name="breset">Kosongkan</button>
+
+    </form>
+  </div>
 </div>
 <!-- Akhir Card Form -->
 
+<!-- Awal Card Tabel -->
+<div class="card">
+  <div class="card-header bg-primary text-putih">
+    Daftar Tamu Hotel 
+  </div>
+  <div class="card-body">
+
+  <table class="table table-bordered table-striped">
+      <tr>
+          <th>No.</th>
+          <th>Nama</th>
+          <th>KodeBooking</th>
+          <th>TipeKamar</th>
+      </tr>
+      <tr>
+          <td>1</th>
+          <td>Jarjit Sigh</th>
+          <td>56321</th>
+          <td>deluxe room</th>
+    
+  </div>
+</div>
+<!-- Akhir Card Tabel -->
 <script type="text/javascript" src="js/bootstrap.min.css"></script>
 </body>
 </html>
